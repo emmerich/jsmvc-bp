@@ -10,5 +10,6 @@ A boilerplate application combining the following aspects:
 * RequireJS for AMD
 * Jasmine for Unit Testing
 * jQuery for DOM manipulation
+* Underscore templates for templating
 * Maven for building and continuous integration
 * JSLint for sanity checking (maybe)
