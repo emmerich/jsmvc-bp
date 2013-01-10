@@ -1,0 +1,15 @@
+paths: {
+    "jquery": "lib/jquery/jquery",
+    "underscore": "lib/underscore/underscore",
+    "backbone": "lib/backbone/backbone",
+    "text" : "lib/requirejs/text",
+    "almond" : "lib/requirejs/almond",
+    "jasmine-jquery": "../specs/lib/jasmine-jquery/jasmine-jquery"
+},
+
+shim : {
+  'backbone' : {
+    deps : ['underscore', 'jquery'],
+    exports : 'Backbone'
+  }
+}
